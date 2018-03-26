@@ -22,9 +22,7 @@ gem 'jbuilder', '2.5.0'
 
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
-# mailer
 
-gem 'sendgrid-ruby'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
