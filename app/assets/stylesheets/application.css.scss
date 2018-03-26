@@ -1,0 +1,96 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ @import 'bootstrap-sprockets';
+ @import 'bootstrap';
+ @import "font-awesome";
+ 
+ /* Nav-bar style--------------------------*/
+ 
+ .bg-dark {
+    background-color: #343a40!important;
+    opacity: 0.9;
+    color: white;
+ }
+ 
+ @media (min-width: 768px) {
+.navbar {
+    border-radius: 0px;
+  }
+}
+
+ .navbar-brand, .navbar li a, .white-text {
+    color: white;
+ }
+ 
+ .navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+ 
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+    color: grey;
+    opacity: 0.8;
+}
+
+ .nav > li > a:hover{
+    background-color:#d06f6b;
+    color: white;
+    border-radius: 4px;
+ }
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+ .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #eeac65;
+  }
+}
+
+/* Typography Styles -------------------**/
+
+ h1,h2,h3 {
+     font-family: 'Open Sans',  sans-serif;
+     
+ }
+ 
+ /* HomePage------------------------------*/ 
+.home-callout {
+ //@_ighosh uigradient.com
+ 
+         //Evening Sky
+ //background: #005AA7;  /* fallback for old browsers */
+ //background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+ //background: linear-gradient(to left, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+         //Peach Purple
+ background: #d53369;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+         //Infection 
+ //background: #C04848;  /* fallback for old browsers */
+ //background: -webkit-linear-gradient(to top, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+ //background: linear-gradient(to top, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+ margin-top: -20px;
+ padding-top: 3em;
+ padding-bottom: 25em;
+
+}
