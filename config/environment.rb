@@ -13,7 +13,3 @@ ActionMailer::Base.smtp_settings = {
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
-<<<<<<< HEAD
-=======
-
->>>>>>> 0b8f43fe8e16fcaebee47c263e1b4c98e21b7f98
