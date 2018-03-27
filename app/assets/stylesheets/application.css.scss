@@ -13,19 +13,19 @@
  *= require_tree .
  *= require_self
  */
- 
+
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  @import "font-awesome";
- 
+ @import 'materialize';
  /* Nav-bar style--------------------------*/
- 
+
  .bg-dark {
     background-color: #343a40!important;
     opacity: 0.9;
     color: white;
  }
- 
+
  @media (min-width: 768px) {
 .navbar {
     border-radius: 0px;
@@ -35,12 +35,12 @@
  .navbar-brand, .navbar li a, .white-text {
     color: white;
  }
- 
+
  .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
- 
+
 .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
     color: grey;
@@ -67,30 +67,53 @@
 
  h1,h2,h3 {
      font-family: 'Open Sans',  sans-serif;
-     
+
  }
- 
- /* HomePage------------------------------*/ 
+
+ /* HomePage------------------------------*/
 .home-callout {
  //@_ighosh uigradient.com
- 
+
          //Evening Sky
  //background: #005AA7;  /* fallback for old browsers */
  //background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
  //background: linear-gradient(to left, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+
          //Peach Purple
  background: #d53369;  /* fallback for old browsers */
  background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(to left, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-         //Infection 
+
+         //Infection
  //background: #C04848;  /* fallback for old browsers */
  //background: -webkit-linear-gradient(to top, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
  //background: linear-gradient(to top, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+
  margin-top: -20px;
  padding-top: 3em;
  padding-bottom: 25em;
+
+}
+
+/*Sign up---------------------------*/
+.mt-3 {
+   margin-top: 3em;
+}
+
+.signup-page .card-signup {
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+    margin-bottom: 100px;
+    padding: 40px 50px;
+}
+.card {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+    background: #cfc1c1;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)
 
 }
