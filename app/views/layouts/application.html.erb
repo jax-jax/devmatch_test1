@@ -29,6 +29,10 @@
       DevMatch
       <% end %>
     </div>
+    <div class="nav navbar-nav navbar-right">
+      <%= link_to "Log In", new_user_session_path, class: "btn btn-default navbar-btn ml-15" %>
+      <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default navbar-btn ml-15" %>
+   </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
      <!--   <li><a class="a:hover"href="/about">About</a></li> html links vs ruby links -->

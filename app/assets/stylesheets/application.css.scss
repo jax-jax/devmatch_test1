@@ -52,6 +52,7 @@
     background-color:#d06f6b;
     color: white;
     border-radius: 4px;
+    margin: auto;
  }
 
 .navbar-toggle .icon-bar {
@@ -62,6 +63,10 @@
   &:hover, &:focus {
     background-color: #eeac65;
   }
+}
+
+.ml-15 {
+   margin-left: 15px;
 }
 
 /* Typography Styles -------------------**/
