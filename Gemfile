@@ -21,9 +21,9 @@ gem 'jbuilder', '2.5.0'
 # gem 'redis', '3.0'
 
 # Use Twitter Bootstrap library for front-end UI and layout
-gem 'bootstrap', '~> 4.0.0'
+
 gem 'bootstrap-sass', '3.3.7'
-gem 'autoprefixer-rails'
+
 
 # Use Devise for user authentication
 gem 'devise', '4.2.0'
