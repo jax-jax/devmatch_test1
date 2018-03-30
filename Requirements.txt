@@ -1,0 +1,7 @@
+Memberships
+*User should see link for Basic plan on Home Page
+*User should see link for Pro plan on HomePage
+*Basic plan link should point to regular Devise signup form
+*Pro plan link should point to a custom signup form
+   *collects credit card information
+   
