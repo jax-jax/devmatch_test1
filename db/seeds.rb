@@ -10,5 +10,5 @@
 # ID:'prod_Caeias39CAy8Za'
 
 
-Plan.create(name: 'basic', price: 0, product: 'prod_CaegZRGUrVAMkX')
-Plan.create(name: 'pro', price: 10, product: 'prod_Caeias39CAy8Za')
+Plan.create(name: 'basic', price: 0)
+Plan.create(name: 'pro', price: 10)
